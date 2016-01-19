@@ -1,3 +1,10 @@
+body{
+    background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+    ),  url("../img/star-wars-yoda.jpg");
+
+}
 .mother-container{
     display: flex;
     flex-direction:column;
@@ -9,13 +16,24 @@
 .mother-container > .title-container{
     width:600px;
     height:150px;
-    border:solid crimson;
-    border-style:inset;
     margin:10px;
+
 }
 
 .mother-container > .title-container > .title-p{
     text-align: center;
+    font-family: "Lobster";
+    font-size:40px;
+    color: white;
+
+}
+
+.mother-container > .title-container > .title-message{
+    text-align: center;
+    font-family:'Questrial';
+    font-size:30px;
+    color: white;
+
 }
 
 .mother-container > .button-container{
@@ -25,9 +43,18 @@
 
 .mother-container > .random-quote-container{
     width:600px;
-    height:150px;
-    border:solid purple;
-    border-style:inset;
+    height:300px;
     margin:10px;
+}
+
+.mother-container > .not-here{
+    display: none;
+}
+.mother-container > .random-quote-container{
+    font-family: 'Bitter';
+    text-align: center;
+    color: white;
+    font-size:25px;
+    margin:20px 0;
 }
 
